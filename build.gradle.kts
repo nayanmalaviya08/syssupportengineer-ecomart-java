@@ -21,7 +21,7 @@ sourceSets {
         java {
             compileClasspath += sourceSets.main.get().output + sourceSets.test.get().output
             runtimeClasspath += sourceSets.main.get().output + sourceSets.test.get().output
-            setSrcDirs(listOf("src/functional-test"))
+            setSrcDirs(listOf("src/functional-test/java"))
         }
     }
 }
